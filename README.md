@@ -1,7 +1,7 @@
 # blendSubRender
-Sub processing multiple instances of blender for rending. When rending the general principle is applying more resources
-and completely the current frame is faster approach to getting the end result. Most of the time this works, but there 
-are a few, additively niece cases, when it can be faster to subprocess an animation. 
+Sub processing multiple instances of blender for rendering. When rending the general principle is applying more 
+resources and completely the current frame is faster approach to getting the end result. Most of the time this works, 
+but there are a few, additively niece cases, when it can be faster to subprocess an animation. 
 
 For example, lets say you have a 10 seconds shot of 60 frames per second of a room that, apart from a television, is 
 static. The television is showing an animated texture, cast as an emission texture which means it can quite effectively
